@@ -1,5 +1,4 @@
 import { lazy, LazyExoticComponent } from "react";
-import { LazyPage3 } from "../01-lazyload/pages/LazyPage3";
 import { NoLazy } from "../01-lazyload/pages/NoLazy";
 
 type JSXComponent = () => JSX.Element
