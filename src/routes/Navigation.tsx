@@ -12,7 +12,7 @@ export const Navigation = () => {
                     <img src={logo} alt="React logo"/>
                     <ul>
                         <li>
-                            <NavLink to="/home" className={({isActive}) => isActive ? 'nav-active' : ''}>Home</NavLink>
+                            <NavLink to="/home" className={({isActive}) => isActive ? 'nav-active' : ''}>Shopping</NavLink>
                         </li>
                         <li>
                             <NavLink to="/about" className={({isActive}) => isActive ? 'nav-active' : ''}>About</NavLink>
