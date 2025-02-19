@@ -7,17 +7,6 @@ export const ShoppingPage = () => {
 
     const {shoppingCart, onProductCountChange} = useShoppingCart()
 
-      // if(count === 0){
-
-      //   const {[product.id]: toDelete, ...rest} = oldShoppingCart;
-      //   return rest;
-      // }
-
-      // return {
-      //   ...oldShoppingCart,
-      //   [product.id]:{...product,count}
-      // }
-
   return (
     <div>
         <h1>Shopping Page</h1>

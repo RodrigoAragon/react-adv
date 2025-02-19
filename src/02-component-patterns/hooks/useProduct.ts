@@ -11,14 +11,7 @@ export const useProduct = ({onChange, product, value = 0}: useProductArgs) => {
 
     const [counter, setCounter] = useState(value)
 
-    const isControlled = useRef(!!onChange)
-
     const increase = (value: number) => {
-
-        if(isControlled.current){
-            return onChange!({count: value, product})   ////El signo de exclamación es para evitar que typescript tome al onChange como error 
-        }
-
         const newValue = Math.max(counter+value, 0)
 
         setCounter( newValue)
